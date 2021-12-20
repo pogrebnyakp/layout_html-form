@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form onsubmit="onSubmit()" action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get">
+    <form
+    onsubmit="onSubmit()"
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="get"
+    >
       <fieldset class="block">
-        <legend>Personal information</legend>
+        <legend>
+          Personal information
+        </legend>
         <ul>
           <li class="item">
             <label for="surname">
@@ -55,8 +61,8 @@
             </label>
           </li>
           <li class="item">
-            <label for="birthday"
-              >Full date of birthday
+            <label for="birthday">
+              Full date of birthday
               <input
                 type="date"
                 name="birthday"
@@ -66,20 +72,26 @@
             </label>
           </li>
           <li class="item">
-            <label for="agree"
-              >I accept the term of the agreement
-              <input type="checkbox" name="agree" id="agree">
+            <label for="agree">
+              I accept the term of the agreement
+              <input
+              type="checkbox"
+              name="agree"
+              id="agree"
+              >
             </label>
           </li>
         </ul>
       </fieldset>
 
       <fieldset class="block">
-        <legend>Registration</legend>
+        <legend>
+          Registration
+        </legend>
         <ul>
           <li class="item">
-            <label for="email"
-              >E-mail:
+            <label for="email">
+              E-mail:
               <input
                 type="email"
                 name="email"
@@ -92,63 +104,107 @@
           <li class="item">
             <label for="password">
               Password:
-              <input type="password" name="password"
-              id="password" required>
+              <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              >
             </label>
           </li>
         </ul>
       </fieldset>
 
       <fieldset class="block">
-        <legend>An interesting fact about you!</legend>
+        <legend>
+          An interesting fact about you!
+        </legend>
         <ul>
           <li class="item">
-            <label for="answer1"
-              >Do you love cats?
+            <label for="answer1">
+              Do you love cats?
               <span>
-                <input type="radio" name="answer" id="answer1"> Yes
+                <input
+                type="radio"
+                name="answer"
+                id="answer1">
+                Yes
               </span>
             </label>
             <label for="answer2">
-              <span><input type="radio" name="answer" id="answer2"> No </span>
+              <span>
+                <input
+                type="radio"
+                name="answer"
+                id="answer2"
+                >
+                No
+              </span>
             </label>
           </li>
           <li class="item">
             <label for="color">
               What is your favorite color?
-              <input type="color" name="color" id="color">
+              <input
+              type="color"
+              name="color"
+              id="color"
+              >
             </label>
           </li>
           <li class="item">
             <label for="time">
               What time do you go to bed?
-              <input type="time" name="time" value="--:--:-- --"
-              id="time">
+              <input
+              type="time"
+              name="time"
+              value="--:--:-- --"
+              id="time"
+              >
             </label>
           </li>
           <li class="item">
             <label for="favoriteCars">
               What are your favorite brand of cars?
-              <select name="cars" id="favoriteCars" multiple>
-                <option value="BMW">BMW</option>
-                <option value="Audi">Audi</option>
-                <option value="Lada">Lada</option>
-                <option value="default"></option>
+              <select
+              name="cars"
+              id="favoriteCars"
+              multiple
+              >
+                <option value="BMW">
+                  BMW
+                </option>
+                <option value="Audi">
+                  Audi
+                </option>
+                <option value="Lada">
+                  Lada
+                </option>
+                <option
+                value="default"
+                >
+                </option>
               </select>
             </label>
           </li>
           <li class="item">
             <label for="work">
               How do you rate our work?
-              <input type="range" name="work" id="work"
-              value="0">
+              <input
+              type="range"
+              name="work"
+              id="work"
+              value="0"
+              >
             </label>
           </li>
         </ul>
       </fieldset>
 
       <fieldset class="block">
-        <legend>Aditional info:</legend>
+        <legend>
+          Aditional info:
+        </legend>
         <ul>
           <li class="item">
             <label for="comments">
@@ -158,24 +214,40 @@
                 id="comments"
                 cols="20"
                 rows="2"
-              ></textarea>
+              >
+              </textarea>
             </label>
           </li>
           <li class="item">
             <label for="recommendUs">
               Would you recommend us?
-              <select name="recommend" id="recommendUs">
-                <option value="yes">yes</option>
-                <option value="no">no</option>
+              <select
+              name="recommend"
+              id="recommendUs"
+              >
+                <option value="yes">
+                  yes
+                </option>
+                <option value="no">
+                  no
+                </option>
               </select>
             </label>
           </li>
         </ul>
       </fieldset>
       <label for="submit">
-        <input type="submit" value="Submit" id="submit">
+        <input
+        type="submit"
+        value="Submit"
+        id="submit"
+        >
       </label>
     </form>
-    <script type="text/javascript" src="./main.js"></script>
+    <script
+    type="text/javascript"
+    src="./main.js"
+    >
+    </script>
   </body>
 </html>
