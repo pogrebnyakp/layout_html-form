@@ -1,1 +1,19 @@
 /* styles go here */
+.item {
+  margin-bottom: 10px;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item:last-of-type {
+  margin-bottom: 0;
+}
+
+.block {
+  margin-bottom: 20px;
+}
